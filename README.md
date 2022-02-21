@@ -12,3 +12,4 @@ Para poder enlistar la información de los dispositivos de bloque conectados, es
 ## 4) Mostrar la tabla de particiones del disco donde está instalado el sistema operativo en terminal:
 Para mostrar la tabla de particiones del disco donde está instalado el sistema, se utiliza el comando `fdisk -l` , con privilegios de superusuario (utilizando el prefijo `sudo`).
 
+![](https://github.com/TavSc/Practica-1-SO2/blob/5d9ce2af346b9bb1e558ae0bc252d781aa8f0f28/Im%C3%A1genes/4.png)
