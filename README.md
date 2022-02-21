@@ -1,2 +1,5 @@
 # Practica 1 - Sistemas Operativos 2
 ## 1-. Diferencias entre HDA, SDA y VDA 
+
+## 2-. ¿Cómo montar y desmontar un usb en el sistema, por medio de una terminal?
+Para poder montar una USB, se utiliza el comando `sudo mount [sistema de archivos] -o rw, umask=[número de umask] [dispositivo a montar] [carpeta donde se montará]`
