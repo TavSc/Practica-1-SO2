@@ -1,5 +1,8 @@
 # Practica 1 - Sistemas Operativos 2
 ## 1-. Diferencias entre HDA, SDA y VDA 
+-
+-
+-
 
 ## 2-. ¿Cómo montar y desmontar un usb en el sistema, por medio de una terminal?
 Para poder montar un dispositivo (incluyendo USBs), se utiliza el comando `sudo mount [sistema de archivos] -o rw, umask=[número de umask] [dispositivo a montar] [carpeta donde se montará]`.
@@ -13,3 +16,7 @@ Para poder enlistar la información de los dispositivos de bloque conectados, es
 Para mostrar la tabla de particiones del disco donde está instalado el sistema, se utiliza el comando `fdisk -l` , con privilegios de superusuario (utilizando el prefijo `sudo`).
 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/5d9ce2af346b9bb1e558ae0bc252d781aa8f0f28/Im%C3%A1genes/4.png)
+
+## 5) Desplegado de las particiones de una USB en terminal:
+
+## 6) Borrado de las particiones de una USB en terminal:
