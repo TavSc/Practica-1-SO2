@@ -94,3 +94,8 @@ Finalmente, aparecerá una ventana, donde se tendrá que indicar el nombre de la
 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/f44f31887a61c0b754b097ec5ac4e7c2198a1aff/Im%C3%A1genes/9.4.png)
 
+## 10) Copiar un archivo ISO de distribución live de Linux a la USB, por medio del comando `dd`:
+
+Para realizar esto, se utiliza el comando `sudo dd if=[Archivo que se desea copiar] of=[unidad destino]`.
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/ace6f57e60afca815097c94a543148748b1dedf4/Im%C3%A1genes/10.png)
