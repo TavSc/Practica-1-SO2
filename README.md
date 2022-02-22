@@ -13,9 +13,9 @@ Para poder enlistar la información de los dispositivos de bloque conectados, es
 ![](https://github.com/TavSc/Practica-1-SO2/blob/48ca4597342f4594b9f27be124d768f259120b57/Im%C3%A1genes/3.png)
 
 ## 4) Mostrar la tabla de particiones del disco donde está instalado el sistema operativo en terminal:
-Para mostrar la tabla de particiones del disco donde está instalado el sistema, se utiliza el comando `fdisk -l` , con privilegios de superusuario (utilizando el prefijo `sudo`).
+Para mostrar la tabla de particiones del disco donde está instalado el sistema, se utiliza el comando `fdisk -l [disco del cuál se quieren mostrar las particiones]` , con privilegios de superusuario (utilizando el prefijo `sudo`).
 
-![](https://github.com/TavSc/Practica-1-SO2/blob/5d9ce2af346b9bb1e558ae0bc252d781aa8f0f28/Im%C3%A1genes/4.png)
+![](https://github.com/TavSc/Practica-1-SO2/blob/8efa9a984bb044b4e8e2fc462dfa5ab1649b8b73/Im%C3%A1genes/4.2.png)
 
 ## 5) Desplegado de las particiones de una USB en terminal:
 
