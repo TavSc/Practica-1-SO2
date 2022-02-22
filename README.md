@@ -24,7 +24,7 @@ Para poder enlistar la información de los dispositivos de bloque conectados, es
 ## 4) Mostrar la tabla de particiones del disco donde está instalado el sistema operativo en terminal:
 Para mostrar la tabla de particiones del disco donde está instalado el sistema, se utiliza el comando `sudo fdisk -l`.
 
-![](https://github.com/TavSc/Practica-1-SO2/blob/8efa9a984bb044b4e8e2fc462dfa5ab1649b8b73/Im%C3%A1genes/4.2.png)
+![](https://github.com/TavSc/Practica-1-SO2/blob/03c6b74fe8a28ec4d0136d6d74934091021f4072/Im%C3%A1genes/4.3.png)
 
 ## 5) Desplegado de las particiones de una USB en terminal:
 Para mostrar la tabla de particiones una USB, se utiliza el comando `sudo fdisk -l [unidad que se requiere para mostrar sus particiones]`.
