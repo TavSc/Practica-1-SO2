@@ -32,3 +32,10 @@ Para mostrar la tabla de particiones una USB, se utiliza el comando `sudo fdisk 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/12b694d981cfa8ba7ddb377cf5670bac8290f16d/Im%C3%A1genes/5.png)
 
 ## 6) Borrado de las particiones de una USB en terminal:
+Para borrar particiones en una unidad (incluyendo USBs), se utiliza el programa `fdisk`. La forma de ingresar al programa, es por medio del comando `sudo fdisk [dispositivo al cúal se le van a eliminar las particiones]`. 
+
+Existen varios comandos disponibles en esta utilidad, pero para el borrado de una partición, se utiliza el comando `d`.
+
+Una vez iniciado el programa `fdisk`, hay que escribir el comando `d`, y posteriormente se le preguntará que partición desea eliminar. Al escribir el número de partición, saldrá un mensaje que la partición se ha eliminado. Hay que repetir el proceso con todas las particiones del dispositivo.
+
+>Los cambios que se realicen a la unidad no serán efectivos, hasta que se utilice el comando `w`, que escribe los cambios realizados en la unidad. Si no se utiliza el comando `w` al terminar de hacer modificaciones, éstas no se guardarán.
