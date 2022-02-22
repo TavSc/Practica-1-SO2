@@ -47,7 +47,22 @@ Una vez iniciado el programa `fdisk`, hay que escribir el comando `d`, y posteri
 ![](https://github.com/TavSc/Practica-1-SO2/blob/71693ad58f2ce51aaf9f1510ce0caf5a918c564f/Im%C3%A1genes/6.5.png)
 
 El proceso completo se vería así:
+
 ![](https://github.com/TavSc/Practica-1-SO2/blob/71693ad58f2ce51aaf9f1510ce0caf5a918c564f/Im%C3%A1genes/6.1.png)
 
 Para corroborar que se hicieron los cambios, podemos usar el comando `sudo fdisk -l [unidad que se requiere para mostrar sus particiones]`.
+
+## 7) Crear en el USB 3 particiones físicas y una partición extendida en terminal:
+
+Para crear particiones en una unidad (incluyendo USBs), se utiliza el programa `fdisk`. La forma de ingresar al programa, es por medio del comando `sudo fdisk [dispositivo al cúal se le van a crear las particiones]`. 
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/71693ad58f2ce51aaf9f1510ce0caf5a918c564f/Im%C3%A1genes/6.3.png)
+
+Una vez iniciado el programa `fdisk`, hay que escribir el comando `n`, y posteriormente se le preguntará el tipo de partición a crear. 
+
+Para crear una partición lógica, se escribe `p`, y para crear una partición extendida se escribe `e`. Posteriormente, se preguntará el número de partición que se creará (1-4). 
+
+Luego de ello, se preguntará el primer sector que se ubicará en la partición que se está creando, y después se preguntará el último sector que se ubicará en dicha partición.
+
+ Hay que repetir el proceso con todas las particiones que se deseen crear.
 
