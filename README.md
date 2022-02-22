@@ -72,3 +72,8 @@ Luego de ello, se preguntará el primer sector que se ubicará en la partición 
 El proceso completo se ve así:
 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/81c7a1c997d4c3986993d841c3903f6d7b26d5a8/Im%C3%A1genes/7.1.png)
+
+## 8) Crear una partición dentro de la partición extendida del USB en terminal:
+Para crear una partición dentro de una partición extendida, se siguen los mismos pasos que en el punto de arriba para crear particiones primarias, y la partición se guardará automáticamente en la extendida.
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/4632b701bb08e179ec259d1c5d9452e3baffb53d/Im%C3%A1genes/8.png)
