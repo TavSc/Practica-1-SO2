@@ -77,3 +77,20 @@ El proceso completo se ve así:
 Para crear una partición dentro de una partición extendida, se siguen los mismos pasos que en el punto de arriba para crear particiones primarias, y la partición se guardará automáticamente en la extendida.
 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/4632b701bb08e179ec259d1c5d9452e3baffb53d/Im%C3%A1genes/8.png)
+
+## 9) Utilizando la aplicación Disks, borrar las particiones para que solo exista una partición que abarque toda la USB:
+
+Para borrar las particiones de la unidad usando la aplicación Disks, hay que dar clic en el botón rojo ubicado en la parte derecha de la aplicación, y al apretarlo saldrá la siguiente ventana:
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/f44f31887a61c0b754b097ec5ac4e7c2198a1aff/Im%C3%A1genes/9.1.png)
+
+Hay que apretar `Delete`, y se borrara la partición deseada. Hay que repetir este proceso para todas las particiones. Una vez se hayan borrado todas las particiones, hay que dar clic en el botón +, y se desplegará la siguiente ventana, donde se indicará el tamaño de la partición. 
+
+>Ya que deseamos crear una partición que abarque toda la unidad, hay que dejar el valor por defecto.
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/f44f31887a61c0b754b097ec5ac4e7c2198a1aff/Im%C3%A1genes/9.3.png)
+
+Finalmente, aparecerá una ventana, donde se tendrá que indicar el nombre de la unidad, el tipo de sistema de archivos, etc.
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/f44f31887a61c0b754b097ec5ac4e7c2198a1aff/Im%C3%A1genes/9.4.png)
+
