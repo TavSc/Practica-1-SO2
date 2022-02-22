@@ -5,9 +5,16 @@
 -
 
 ## 2-. ¿Cómo montar y desmontar un usb en el sistema, por medio de una terminal?
-Para poder montar un dispositivo (incluyendo USBs), se utiliza el comando `sudo mount [sistema de archivos] -o rw, umask=[número de umask] [dispositivo a montar] [carpeta donde se montará]`.
+
+### Montar USB
+Para poder montar una unidad (incluyendo USBs), se utiliza el comando `sudo mount [sistema de archivos] -o rw, umask=[número de umask] [unidad a montar] [carpeta donde se montará]`.
 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/f77772108087a117998155f009da29329805eb7e/Im%C3%A1genes/2.1.png)
+
+### Desmontar USB:
+Para desmontar una unidad (incluyendo USBs), se utiliza el comando `sudo umount [carpeta donde se montó la unidad]`.
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/b73b54d9e72c1003cae89fc6ae503e9e2d59fa54/Im%C3%A1genes/2.2.png)
 
 ## 3) Enlistar la información de los dispositivos de bloque conectados, aunque no estén montados en terminal:
 Para poder enlistar la información de los dispositivos de bloque conectados, estén montados o no, se utiliza el comando `lsblk`.
