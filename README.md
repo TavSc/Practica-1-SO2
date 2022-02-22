@@ -64,5 +64,10 @@ Para crear una partición lógica, se escribe `p`, y para crear una partición e
 
 Luego de ello, se preguntará el primer sector que se ubicará en la partición que se está creando, y después se preguntará el último sector que se ubicará en dicha partición.
 
+![](https://github.com/TavSc/Practica-1-SO2/blob/81c7a1c997d4c3986993d841c3903f6d7b26d5a8/Im%C3%A1genes/7.4.png)
+
  Hay que repetir el proceso con todas las particiones que se deseen crear.
 
+El proceso completo se ve así:
+
+![](https://github.com/TavSc/Practica-1-SO2/blob/81c7a1c997d4c3986993d841c3903f6d7b26d5a8/Im%C3%A1genes/7.1.png)
