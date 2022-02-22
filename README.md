@@ -62,6 +62,7 @@ Una vez iniciado el programa `fdisk`, hay que escribir el comando `n`, y posteri
 
 Para crear una partición lógica, se escribe `p`, y para crear una partición extendida se escribe `e`. Posteriormente, se preguntará el número de partición que se creará (1-4). 
 
+![](https://github.com/TavSc/Practica-1-SO2/blob/75c3ed639c732cda2392cba12c671ce7861604d9/Im%C3%A1genes/7.3.png)
 Luego de ello, se preguntará el primer sector que se ubicará en la partición que se está creando, y después se preguntará el último sector que se ubicará en dicha partición.
 
 ![](https://github.com/TavSc/Practica-1-SO2/blob/81c7a1c997d4c3986993d841c3903f6d7b26d5a8/Im%C3%A1genes/7.4.png)
